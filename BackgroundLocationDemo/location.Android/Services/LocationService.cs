@@ -34,7 +34,7 @@ namespace Location.Droid.Services
 
 		// This gets called when StartService is called in our App class
 		[Obsolete("deprecated in base class")]
-		public override StartCommandResult OnStartCommand (Intent intent, StartCommandFlags flags, int startId)
+		public override StartCommandResult OnStartCommand (Intent intent, StartCommandFlags flags,int startId)
 		{
 			Log.Debug (logTag, "LocationService started");
 
